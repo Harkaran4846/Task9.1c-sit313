@@ -1,0 +1,56 @@
+.homepage-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.homepage-header {
+  background-color: #4A90E2;
+  padding: 15px;
+  color: white;
+}
+
+.homepage-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Space between search bar and buttons */
+  margin-top: 10px;
+}
+
+.search-input {
+  padding: 8px;
+  width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.nav-btn {
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px solid #4A90E2;
+  color: #4A90E2;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.welcome-message {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.nav-btn.signout-btn {
+  background-color: #e63946; /* Red color for sign-out button */
+  color: white;
+}
+
+.nav-btn.signout-btn:hover {
+  background-color: #d62828; /* Darker red when hovering */
+}
